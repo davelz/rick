@@ -4,6 +4,7 @@ all:	vidsrc/rick.mp4 html/output.mpd
 	@docker build -t rick-nginx .
 
 vidsrc/rick.mp4:
+	@mkdir -p vidsrc
 	@wget https://archive.org/download/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4 -O vidsrc/rick.mp4
 
 run:
