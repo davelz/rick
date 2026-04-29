@@ -5,4 +5,4 @@ Just roll with it
     make run
     open http://localhost:8080/index.html
 
-current version requires installed docker, make and ffmpeg
+current version requires installed docker, wget, make and ffmpeg
